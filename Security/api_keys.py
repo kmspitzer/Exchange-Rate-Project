@@ -2,7 +2,7 @@
 
 
 # https://www.alphavantage.co/support/#
-akavantage=P138VAR1CCLXTQ8F
+akavantage=
 
 
 
