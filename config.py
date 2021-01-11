@@ -1,9 +1,12 @@
 # set constants
 
-# Base currency United States, US Dollar, USD
+# data filename for cleaned exchange rate data
+xchg_filename = "Output/ExchangeRate_data.csv"
 
+# Base currency United States, US Dollar, USD
 base_country = {"name": "United States", "currency_name": "US Dollar", "currency_code": "USD"}
 
+# Country data for comparison to USD
 countries = {"European Union": {"currency_name": "Euro", "currency_code": "EUR"},
             "Japan": {"currency_name": "Japanese Yen", "currency_code": "JPY"},
             "United Kingdom": {"currency_name": "Pound Sterling", "currency_code": "GBP"},
