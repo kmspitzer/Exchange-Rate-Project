@@ -2,7 +2,7 @@
 
 
 # https://www.alphavantage.co/support/#
-akavantage=
+akavantage=123
 
 
 
