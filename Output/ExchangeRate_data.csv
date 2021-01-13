@@ -1,89 +1,85 @@
-currency_code,country name,currency_name,year,close rate
-AUD,Australia,Australian Dollar,2014,0.8165
-AUD,Australia,Australian Dollar,2015,0.7289
-AUD,Australia,Australian Dollar,2016,0.7201
-AUD,Australia,Australian Dollar,2017,0.7808
-AUD,Australia,Australian Dollar,2018,0.7048
-AUD,Australia,Australian Dollar,2019,0.7015
-BRL,Brazil,Brazilian Real,2014,0.3757
-BRL,Brazil,Brazilian Real,2015,0.2520
-BRL,Brazil,Brazilian Real,2016,0.3068
-BRL,Brazil,Brazilian Real,2017,0.3014
-BRL,Brazil,Brazilian Real,2018,0.2578
-BRL,Brazil,Brazilian Real,2019,0.2483
-BYN,Belarus,Belarusian Ruble,2016,0.5050
-BYN,Belarus,Belarusian Ruble,2017,0.4926
-BYN,Belarus,Belarusian Ruble,2018,0.4651
-BYN,Belarus,Belarusian Ruble,2019,0.4762
-CAD,Canada,Canadian Dollar,2014,0.8605
-CAD,Canada,Canadian Dollar,2015,0.7223
-CAD,Canada,Canadian Dollar,2016,0.7441
-CAD,Canada,Canadian Dollar,2017,0.7944
-CAD,Canada,Canadian Dollar,2018,0.7322
-CAD,Canada,Canadian Dollar,2019,0.7695
-CHF,Switzerland,Swiss Franc,2014,1.0052
-CHF,Switzerland,Swiss Franc,2015,0.9976
-CHF,Switzerland,Swiss Franc,2016,0.9801
-CHF,Switzerland,Swiss Franc,2017,1.0249
-CHF,Switzerland,Swiss Franc,2018,1.0181
-CHF,Switzerland,Swiss Franc,2019,1.0321
-EUR,European Union,Euro,2014,1.2096
-EUR,European Union,Euro,2015,1.0858
-EUR,European Union,Euro,2016,1.0516
-EUR,European Union,Euro,2017,1.1994
-EUR,European Union,Euro,2018,1.1466
-EUR,European Union,Euro,2019,1.1213
-GBP,United Kingdom,Pound Sterling,2014,1.5575
-GBP,United Kingdom,Pound Sterling,2015,1.4734
-GBP,United Kingdom,Pound Sterling,2016,1.2346
-GBP,United Kingdom,Pound Sterling,2017,1.3501
-GBP,United Kingdom,Pound Sterling,2018,1.2750
-GBP,United Kingdom,Pound Sterling,2019,1.3260
-HKD,Hong Kong,Hong Kong Dollar,2014,0.1288
-HKD,Hong Kong,Hong Kong Dollar,2015,0.1290
-HKD,Hong Kong,Hong Kong Dollar,2016,0.1289
-HKD,Hong Kong,Hong Kong Dollar,2017,0.1280
-HKD,Hong Kong,Hong Kong Dollar,2018,0.1277
-HKD,Hong Kong,Hong Kong Dollar,2019,0.1283
-INR,India,Indian Rupee,2014,0.0159
-INR,India,Indian Rupee,2015,0.0150
-INR,India,Indian Rupee,2016,0.0147
-INR,India,Indian Rupee,2017,0.0157
-INR,India,Indian Rupee,2018,0.0144
-INR,India,Indian Rupee,2019,0.0140
-JPY,Japan,Japanese Yen,2014,0.0083
-JPY,Japan,Japanese Yen,2015,0.0083
-JPY,Japan,Japanese Yen,2016,0.0086
-JPY,Japan,Japanese Yen,2017,0.0089
-JPY,Japan,Japanese Yen,2018,0.0091
-JPY,Japan,Japanese Yen,2019,0.0092
-MXN,Mexico,Mexican Peso,2014,0.0677
-MXN,Mexico,Mexican Peso,2015,0.0580
-MXN,Mexico,Mexican Peso,2016,0.0482
-MXN,Mexico,Mexican Peso,2017,0.0508
-MXN,Mexico,Mexican Peso,2018,0.0509
-MXN,Mexico,Mexican Peso,2019,0.0529
-NZD,New Zealand,New Zealand Dollar,2014,0.7791
-NZD,New Zealand,New Zealand Dollar,2015,0.6836
-NZD,New Zealand,New Zealand Dollar,2016,0.6922
-NZD,New Zealand,New Zealand Dollar,2017,0.7093
-NZD,New Zealand,New Zealand Dollar,2018,0.6717
-NZD,New Zealand,New Zealand Dollar,2019,0.6720
-RUB,Russia,Russian Ruble,2014,0.0164
-RUB,Russia,Russian Ruble,2015,0.0138
-RUB,Russia,Russian Ruble,2016,0.0162
-RUB,Russia,Russian Ruble,2017,0.0173
-RUB,Russia,Russian Ruble,2018,0.0143
-RUB,Russia,Russian Ruble,2019,0.0161
-SEK,Sweden,Swedish Krona,2014,0.1279
-SEK,Sweden,Swedish Krona,2015,0.1176
-SEK,Sweden,Swedish Krona,2016,0.1094
-SEK,Sweden,Swedish Krona,2017,0.1216
-SEK,Sweden,Swedish Krona,2018,0.1124
-SEK,Sweden,Swedish Krona,2019,0.1063
-TRY,Turkey,Turkish Lira,2014,0.4280
-TRY,Turkey,Turkish Lira,2015,0.3423
-TRY,Turkey,Turkish Lira,2016,0.2830
-TRY,Turkey,Turkish Lira,2017,0.2633
-TRY,Turkey,Turkish Lira,2018,0.1884
-TRY,Turkey,Turkish Lira,2019,0.1677
+Country,Currency Code,Currency,Year,Close Rate
+Australia,AUD,Australian Dollar,2014,0.8165
+Australia,AUD,Australian Dollar,2015,0.7289
+Australia,AUD,Australian Dollar,2016,0.7201
+Australia,AUD,Australian Dollar,2017,0.7808
+Australia,AUD,Australian Dollar,2018,0.7048
+Australia,AUD,Australian Dollar,2019,0.7015
+Brazil,BRL,Brazilian Real,2014,0.3757
+Brazil,BRL,Brazilian Real,2015,0.2520
+Brazil,BRL,Brazilian Real,2016,0.3068
+Brazil,BRL,Brazilian Real,2017,0.3014
+Brazil,BRL,Brazilian Real,2018,0.2578
+Brazil,BRL,Brazilian Real,2019,0.2483
+Canada,CAD,Canadian Dollar,2014,0.8605
+Canada,CAD,Canadian Dollar,2015,0.7223
+Canada,CAD,Canadian Dollar,2016,0.7441
+Canada,CAD,Canadian Dollar,2017,0.7944
+Canada,CAD,Canadian Dollar,2018,0.7322
+Canada,CAD,Canadian Dollar,2019,0.7695
+Switzerland,CHF,Swiss Franc,2014,1.0052
+Switzerland,CHF,Swiss Franc,2015,0.9976
+Switzerland,CHF,Swiss Franc,2016,0.9801
+Switzerland,CHF,Swiss Franc,2017,1.0249
+Switzerland,CHF,Swiss Franc,2018,1.0181
+Switzerland,CHF,Swiss Franc,2019,1.0321
+European Union,EUR,Euro,2014,1.2096
+European Union,EUR,Euro,2015,1.0858
+European Union,EUR,Euro,2016,1.0516
+European Union,EUR,Euro,2017,1.1994
+European Union,EUR,Euro,2018,1.1466
+European Union,EUR,Euro,2019,1.1213
+United Kingdom,GBP,Pound Sterling,2014,1.5575
+United Kingdom,GBP,Pound Sterling,2015,1.4734
+United Kingdom,GBP,Pound Sterling,2016,1.2346
+United Kingdom,GBP,Pound Sterling,2017,1.3501
+United Kingdom,GBP,Pound Sterling,2018,1.2750
+United Kingdom,GBP,Pound Sterling,2019,1.3260
+Hong Kong,HKD,Hong Kong Dollar,2014,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2015,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2016,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2017,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2018,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2019,0.1283
+India,INR,Indian Rupee,2014,0.0159
+India,INR,Indian Rupee,2015,0.0150
+India,INR,Indian Rupee,2016,0.0147
+India,INR,Indian Rupee,2017,0.0157
+India,INR,Indian Rupee,2018,0.0144
+India,INR,Indian Rupee,2019,0.0140
+Japan,JPY,Japanese Yen,2014,0.0083
+Japan,JPY,Japanese Yen,2015,0.0083
+Japan,JPY,Japanese Yen,2016,0.0086
+Japan,JPY,Japanese Yen,2017,0.0089
+Japan,JPY,Japanese Yen,2018,0.0091
+Japan,JPY,Japanese Yen,2019,0.0092
+Mexico,MXN,Mexican Peso,2014,0.0677
+Mexico,MXN,Mexican Peso,2015,0.0580
+Mexico,MXN,Mexican Peso,2016,0.0482
+Mexico,MXN,Mexican Peso,2017,0.0508
+Mexico,MXN,Mexican Peso,2018,0.0509
+Mexico,MXN,Mexican Peso,2019,0.0529
+New Zealand,NZD,New Zealand Dollar,2014,0.7791
+New Zealand,NZD,New Zealand Dollar,2015,0.6836
+New Zealand,NZD,New Zealand Dollar,2016,0.6922
+New Zealand,NZD,New Zealand Dollar,2017,0.7093
+New Zealand,NZD,New Zealand Dollar,2018,0.6717
+New Zealand,NZD,New Zealand Dollar,2019,0.6720
+Russia,RUB,Russian Ruble,2014,0.0164
+Russia,RUB,Russian Ruble,2015,0.0138
+Russia,RUB,Russian Ruble,2016,0.0162
+Russia,RUB,Russian Ruble,2017,0.0173
+Russia,RUB,Russian Ruble,2018,0.0143
+Russia,RUB,Russian Ruble,2019,0.0161
+Sweden,SEK,Swedish Krona,2014,0.1279
+Sweden,SEK,Swedish Krona,2015,0.1176
+Sweden,SEK,Swedish Krona,2016,0.1094
+Sweden,SEK,Swedish Krona,2017,0.1216
+Sweden,SEK,Swedish Krona,2018,0.1124
+Sweden,SEK,Swedish Krona,2019,0.1063
+Turkey,TRY,Turkish Lira,2014,0.4280
+Turkey,TRY,Turkish Lira,2015,0.3423
+Turkey,TRY,Turkish Lira,2016,0.2830
+Turkey,TRY,Turkish Lira,2017,0.2633
+Turkey,TRY,Turkish Lira,2018,0.1884
+Turkey,TRY,Turkish Lira,2019,0.1677

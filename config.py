@@ -2,6 +2,7 @@
 
 # data filename for cleaned exchange rate data
 xchg_filename = "Output/ExchangeRate_data.csv"
+infl_filename = "Output/Inflation_data.csv"
 
 # Base currency United States, US Dollar, USD
 base_country = {"name": "United States", "currency_name": "US Dollar", "currency_code": "USD"}
