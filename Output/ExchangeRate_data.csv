@@ -1,85 +1,855 @@
-Country,Currency Code,Currency,Year,Close Rate
-Australia,AUD,Australian Dollar,2014,0.8165
-Australia,AUD,Australian Dollar,2015,0.7289
-Australia,AUD,Australian Dollar,2016,0.7201
-Australia,AUD,Australian Dollar,2017,0.7808
-Australia,AUD,Australian Dollar,2018,0.7048
-Australia,AUD,Australian Dollar,2019,0.7015
-Brazil,BRL,Brazilian Real,2014,0.3757
-Brazil,BRL,Brazilian Real,2015,0.2520
-Brazil,BRL,Brazilian Real,2016,0.3068
-Brazil,BRL,Brazilian Real,2017,0.3014
-Brazil,BRL,Brazilian Real,2018,0.2578
-Brazil,BRL,Brazilian Real,2019,0.2483
-Canada,CAD,Canadian Dollar,2014,0.8605
-Canada,CAD,Canadian Dollar,2015,0.7223
-Canada,CAD,Canadian Dollar,2016,0.7441
-Canada,CAD,Canadian Dollar,2017,0.7944
-Canada,CAD,Canadian Dollar,2018,0.7322
-Canada,CAD,Canadian Dollar,2019,0.7695
-Switzerland,CHF,Swiss Franc,2014,1.0052
-Switzerland,CHF,Swiss Franc,2015,0.9976
-Switzerland,CHF,Swiss Franc,2016,0.9801
-Switzerland,CHF,Swiss Franc,2017,1.0249
-Switzerland,CHF,Swiss Franc,2018,1.0181
-Switzerland,CHF,Swiss Franc,2019,1.0321
-European Union,EUR,Euro,2014,1.2096
-European Union,EUR,Euro,2015,1.0858
-European Union,EUR,Euro,2016,1.0516
-European Union,EUR,Euro,2017,1.1994
-European Union,EUR,Euro,2018,1.1466
-European Union,EUR,Euro,2019,1.1213
-United Kingdom,GBP,Pound Sterling,2014,1.5575
-United Kingdom,GBP,Pound Sterling,2015,1.4734
-United Kingdom,GBP,Pound Sterling,2016,1.2346
-United Kingdom,GBP,Pound Sterling,2017,1.3501
-United Kingdom,GBP,Pound Sterling,2018,1.2750
-United Kingdom,GBP,Pound Sterling,2019,1.3260
-Hong Kong,HKD,Hong Kong Dollar,2014,0.1288
-Hong Kong,HKD,Hong Kong Dollar,2015,0.1290
-Hong Kong,HKD,Hong Kong Dollar,2016,0.1289
-Hong Kong,HKD,Hong Kong Dollar,2017,0.1280
-Hong Kong,HKD,Hong Kong Dollar,2018,0.1277
-Hong Kong,HKD,Hong Kong Dollar,2019,0.1283
-India,INR,Indian Rupee,2014,0.0159
-India,INR,Indian Rupee,2015,0.0150
-India,INR,Indian Rupee,2016,0.0147
-India,INR,Indian Rupee,2017,0.0157
-India,INR,Indian Rupee,2018,0.0144
-India,INR,Indian Rupee,2019,0.0140
-Japan,JPY,Japanese Yen,2014,0.0083
-Japan,JPY,Japanese Yen,2015,0.0083
-Japan,JPY,Japanese Yen,2016,0.0086
-Japan,JPY,Japanese Yen,2017,0.0089
-Japan,JPY,Japanese Yen,2018,0.0091
-Japan,JPY,Japanese Yen,2019,0.0092
-Mexico,MXN,Mexican Peso,2014,0.0677
-Mexico,MXN,Mexican Peso,2015,0.0580
-Mexico,MXN,Mexican Peso,2016,0.0482
-Mexico,MXN,Mexican Peso,2017,0.0508
-Mexico,MXN,Mexican Peso,2018,0.0509
-Mexico,MXN,Mexican Peso,2019,0.0529
-New Zealand,NZD,New Zealand Dollar,2014,0.7791
-New Zealand,NZD,New Zealand Dollar,2015,0.6836
-New Zealand,NZD,New Zealand Dollar,2016,0.6922
-New Zealand,NZD,New Zealand Dollar,2017,0.7093
-New Zealand,NZD,New Zealand Dollar,2018,0.6717
-New Zealand,NZD,New Zealand Dollar,2019,0.6720
-Russia,RUB,Russian Ruble,2014,0.0164
-Russia,RUB,Russian Ruble,2015,0.0138
-Russia,RUB,Russian Ruble,2016,0.0162
-Russia,RUB,Russian Ruble,2017,0.0173
-Russia,RUB,Russian Ruble,2018,0.0143
-Russia,RUB,Russian Ruble,2019,0.0161
-Sweden,SEK,Swedish Krona,2014,0.1279
-Sweden,SEK,Swedish Krona,2015,0.1176
-Sweden,SEK,Swedish Krona,2016,0.1094
-Sweden,SEK,Swedish Krona,2017,0.1216
-Sweden,SEK,Swedish Krona,2018,0.1124
-Sweden,SEK,Swedish Krona,2019,0.1063
-Turkey,TRY,Turkish Lira,2014,0.4280
-Turkey,TRY,Turkish Lira,2015,0.3423
-Turkey,TRY,Turkish Lira,2016,0.2830
-Turkey,TRY,Turkish Lira,2017,0.2633
-Turkey,TRY,Turkish Lira,2018,0.1884
-Turkey,TRY,Turkish Lira,2019,0.1677
+Country,Currency Code,Currency,Date,Close Rate
+Australia,AUD,Australian Dollar,2014-12,0.8165
+Australia,AUD,Australian Dollar,2015-01,0.7768
+Australia,AUD,Australian Dollar,2015-02,0.7806
+Australia,AUD,Australian Dollar,2015-03,0.7620
+Australia,AUD,Australian Dollar,2015-04,0.7898
+Australia,AUD,Australian Dollar,2015-05,0.7639
+Australia,AUD,Australian Dollar,2015-06,0.7691
+Australia,AUD,Australian Dollar,2015-07,0.7297
+Australia,AUD,Australian Dollar,2015-08,0.7113
+Australia,AUD,Australian Dollar,2015-09,0.7000
+Australia,AUD,Australian Dollar,2015-10,0.7135
+Australia,AUD,Australian Dollar,2015-11,0.7228
+Australia,AUD,Australian Dollar,2015-12,0.7289
+Australia,AUD,Australian Dollar,2016-01,0.7080
+Australia,AUD,Australian Dollar,2016-02,0.7149
+Australia,AUD,Australian Dollar,2016-03,0.7668
+Australia,AUD,Australian Dollar,2016-04,0.7603
+Australia,AUD,Australian Dollar,2016-05,0.7237
+Australia,AUD,Australian Dollar,2016-06,0.7448
+Australia,AUD,Australian Dollar,2016-07,0.7598
+Australia,AUD,Australian Dollar,2016-08,0.7521
+Australia,AUD,Australian Dollar,2016-09,0.7653
+Australia,AUD,Australian Dollar,2016-10,0.7610
+Australia,AUD,Australian Dollar,2016-11,0.7387
+Australia,AUD,Australian Dollar,2016-12,0.7201
+Australia,AUD,Australian Dollar,2017-01,0.7579
+Australia,AUD,Australian Dollar,2017-02,0.7652
+Australia,AUD,Australian Dollar,2017-03,0.7628
+Australia,AUD,Australian Dollar,2017-04,0.7487
+Australia,AUD,Australian Dollar,2017-05,0.7425
+Australia,AUD,Australian Dollar,2017-06,0.7685
+Australia,AUD,Australian Dollar,2017-07,0.7998
+Australia,AUD,Australian Dollar,2017-08,0.7939
+Australia,AUD,Australian Dollar,2017-09,0.7825
+Australia,AUD,Australian Dollar,2017-10,0.7652
+Australia,AUD,Australian Dollar,2017-11,0.7557
+Australia,AUD,Australian Dollar,2017-12,0.7808
+Australia,AUD,Australian Dollar,2018-01,0.8057
+Australia,AUD,Australian Dollar,2018-02,0.7759
+Australia,AUD,Australian Dollar,2018-03,0.7677
+Australia,AUD,Australian Dollar,2018-04,0.7529
+Australia,AUD,Australian Dollar,2018-05,0.7573
+Australia,AUD,Australian Dollar,2018-06,0.7402
+Australia,AUD,Australian Dollar,2018-07,0.7412
+Australia,AUD,Australian Dollar,2018-08,0.7190
+Australia,AUD,Australian Dollar,2018-09,0.7220
+Australia,AUD,Australian Dollar,2018-10,0.7079
+Australia,AUD,Australian Dollar,2018-11,0.7306
+Australia,AUD,Australian Dollar,2018-12,0.7048
+Australia,AUD,Australian Dollar,2019-01,0.7271
+Australia,AUD,Australian Dollar,2019-02,0.7097
+Australia,AUD,Australian Dollar,2019-03,0.7094
+Australia,AUD,Australian Dollar,2019-04,0.7041
+Australia,AUD,Australian Dollar,2019-05,0.6933
+Australia,AUD,Australian Dollar,2019-06,0.7018
+Australia,AUD,Australian Dollar,2019-07,0.6849
+Australia,AUD,Australian Dollar,2019-08,0.6731
+Australia,AUD,Australian Dollar,2019-09,0.6750
+Australia,AUD,Australian Dollar,2019-10,0.6888
+Australia,AUD,Australian Dollar,2019-11,0.6762
+Australia,AUD,Australian Dollar,2019-12,0.7015
+Brazil,BRL,Brazilian Real,2014-12,0.3757
+Brazil,BRL,Brazilian Real,2015-01,0.3712
+Brazil,BRL,Brazilian Real,2015-02,0.3516
+Brazil,BRL,Brazilian Real,2015-03,0.3123
+Brazil,BRL,Brazilian Real,2015-04,0.3310
+Brazil,BRL,Brazilian Real,2015-05,0.3139
+Brazil,BRL,Brazilian Real,2015-06,0.3217
+Brazil,BRL,Brazilian Real,2015-07,0.2917
+Brazil,BRL,Brazilian Real,2015-08,0.2756
+Brazil,BRL,Brazilian Real,2015-09,0.2527
+Brazil,BRL,Brazilian Real,2015-10,0.2587
+Brazil,BRL,Brazilian Real,2015-11,0.2579
+Brazil,BRL,Brazilian Real,2015-12,0.2520
+Brazil,BRL,Brazilian Real,2016-01,0.2496
+Brazil,BRL,Brazilian Real,2016-02,0.2484
+Brazil,BRL,Brazilian Real,2016-03,0.2780
+Brazil,BRL,Brazilian Real,2016-04,0.2892
+Brazil,BRL,Brazilian Real,2016-05,0.2771
+Brazil,BRL,Brazilian Real,2016-06,0.3107
+Brazil,BRL,Brazilian Real,2016-07,0.3081
+Brazil,BRL,Brazilian Real,2016-08,0.3092
+Brazil,BRL,Brazilian Real,2016-09,0.3061
+Brazil,BRL,Brazilian Real,2016-10,0.3120
+Brazil,BRL,Brazilian Real,2016-11,0.2929
+Brazil,BRL,Brazilian Real,2016-12,0.3068
+Brazil,BRL,Brazilian Real,2017-01,0.3168
+Brazil,BRL,Brazilian Real,2017-02,0.3211
+Brazil,BRL,Brazilian Real,2017-03,0.3197
+Brazil,BRL,Brazilian Real,2017-04,0.3147
+Brazil,BRL,Brazilian Real,2017-05,0.3094
+Brazil,BRL,Brazilian Real,2017-06,0.3019
+Brazil,BRL,Brazilian Real,2017-07,0.3192
+Brazil,BRL,Brazilian Real,2017-08,0.3171
+Brazil,BRL,Brazilian Real,2017-09,0.3155
+Brazil,BRL,Brazilian Real,2017-10,0.3052
+Brazil,BRL,Brazilian Real,2017-11,0.3050
+Brazil,BRL,Brazilian Real,2017-12,0.3014
+Brazil,BRL,Brazilian Real,2018-01,0.3133
+Brazil,BRL,Brazilian Real,2018-02,0.3076
+Brazil,BRL,Brazilian Real,2018-03,0.3020
+Brazil,BRL,Brazilian Real,2018-04,0.2854
+Brazil,BRL,Brazilian Real,2018-05,0.2681
+Brazil,BRL,Brazilian Real,2018-06,0.2577
+Brazil,BRL,Brazilian Real,2018-07,0.2658
+Brazil,BRL,Brazilian Real,2018-08,0.2455
+Brazil,BRL,Brazilian Real,2018-09,0.2470
+Brazil,BRL,Brazilian Real,2018-10,0.2677
+Brazil,BRL,Brazilian Real,2018-11,0.2581
+Brazil,BRL,Brazilian Real,2018-12,0.2578
+Brazil,BRL,Brazilian Real,2019-01,0.2739
+Brazil,BRL,Brazilian Real,2019-02,0.2667
+Brazil,BRL,Brazilian Real,2019-03,0.2544
+Brazil,BRL,Brazilian Real,2019-04,0.2545
+Brazil,BRL,Brazilian Real,2019-05,0.2542
+Brazil,BRL,Brazilian Real,2019-06,0.2595
+Brazil,BRL,Brazilian Real,2019-07,0.2617
+Brazil,BRL,Brazilian Real,2019-08,0.2407
+Brazil,BRL,Brazilian Real,2019-09,0.2401
+Brazil,BRL,Brazilian Real,2019-10,0.2484
+Brazil,BRL,Brazilian Real,2019-11,0.2360
+Brazil,BRL,Brazilian Real,2019-12,0.2483
+Canada,CAD,Canadian Dollar,2014-12,0.8605
+Canada,CAD,Canadian Dollar,2015-01,0.7853
+Canada,CAD,Canadian Dollar,2015-02,0.7981
+Canada,CAD,Canadian Dollar,2015-03,0.7886
+Canada,CAD,Canadian Dollar,2015-04,0.8277
+Canada,CAD,Canadian Dollar,2015-05,0.8024
+Canada,CAD,Canadian Dollar,2015-06,0.8008
+Canada,CAD,Canadian Dollar,2015-07,0.7639
+Canada,CAD,Canadian Dollar,2015-08,0.7607
+Canada,CAD,Canadian Dollar,2015-09,0.7502
+Canada,CAD,Canadian Dollar,2015-10,0.7644
+Canada,CAD,Canadian Dollar,2015-11,0.7492
+Canada,CAD,Canadian Dollar,2015-12,0.7223
+Canada,CAD,Canadian Dollar,2016-01,0.7160
+Canada,CAD,Canadian Dollar,2016-02,0.7387
+Canada,CAD,Canadian Dollar,2016-03,0.7700
+Canada,CAD,Canadian Dollar,2016-04,0.7968
+Canada,CAD,Canadian Dollar,2016-05,0.7639
+Canada,CAD,Canadian Dollar,2016-06,0.7718
+Canada,CAD,Canadian Dollar,2016-07,0.7674
+Canada,CAD,Canadian Dollar,2016-08,0.7628
+Canada,CAD,Canadian Dollar,2016-09,0.7618
+Canada,CAD,Canadian Dollar,2016-10,0.7454
+Canada,CAD,Canadian Dollar,2016-11,0.7442
+Canada,CAD,Canadian Dollar,2016-12,0.7441
+Canada,CAD,Canadian Dollar,2017-01,0.7666
+Canada,CAD,Canadian Dollar,2017-02,0.7507
+Canada,CAD,Canadian Dollar,2017-03,0.7511
+Canada,CAD,Canadian Dollar,2017-04,0.7322
+Canada,CAD,Canadian Dollar,2017-05,0.7408
+Canada,CAD,Canadian Dollar,2017-06,0.7715
+Canada,CAD,Canadian Dollar,2017-07,0.7999
+Canada,CAD,Canadian Dollar,2017-08,0.8010
+Canada,CAD,Canadian Dollar,2017-09,0.8022
+Canada,CAD,Canadian Dollar,2017-10,0.7751
+Canada,CAD,Canadian Dollar,2017-11,0.7752
+Canada,CAD,Canadian Dollar,2017-12,0.7944
+Canada,CAD,Canadian Dollar,2018-01,0.8123
+Canada,CAD,Canadian Dollar,2018-02,0.7791
+Canada,CAD,Canadian Dollar,2018-03,0.7752
+Canada,CAD,Canadian Dollar,2018-04,0.7789
+Canada,CAD,Canadian Dollar,2018-05,0.7726
+Canada,CAD,Canadian Dollar,2018-06,0.7606
+Canada,CAD,Canadian Dollar,2018-07,0.7678
+Canada,CAD,Canadian Dollar,2018-08,0.7666
+Canada,CAD,Canadian Dollar,2018-09,0.7745
+Canada,CAD,Canadian Dollar,2018-10,0.7597
+Canada,CAD,Canadian Dollar,2018-11,0.7520
+Canada,CAD,Canadian Dollar,2018-12,0.7322
+Canada,CAD,Canadian Dollar,2019-01,0.7614
+Canada,CAD,Canadian Dollar,2019-02,0.7587
+Canada,CAD,Canadian Dollar,2019-03,0.7492
+Canada,CAD,Canadian Dollar,2019-04,0.7464
+Canada,CAD,Canadian Dollar,2019-05,0.7397
+Canada,CAD,Canadian Dollar,2019-06,0.7615
+Canada,CAD,Canadian Dollar,2019-07,0.7581
+Canada,CAD,Canadian Dollar,2019-08,0.7510
+Canada,CAD,Canadian Dollar,2019-09,0.7551
+Canada,CAD,Canadian Dollar,2019-10,0.7592
+Canada,CAD,Canadian Dollar,2019-11,0.7528
+Canada,CAD,Canadian Dollar,2019-12,0.7695
+Switzerland,CHF,Swiss Franc,2014-12,1.0052
+Switzerland,CHF,Swiss Franc,2015-01,1.0859
+Switzerland,CHF,Swiss Franc,2015-02,1.0482
+Switzerland,CHF,Swiss Franc,2015-03,1.0289
+Switzerland,CHF,Swiss Franc,2015-04,1.0711
+Switzerland,CHF,Swiss Franc,2015-05,1.0626
+Switzerland,CHF,Swiss Franc,2015-06,1.0678
+Switzerland,CHF,Swiss Franc,2015-07,1.0345
+Switzerland,CHF,Swiss Franc,2015-08,1.0350
+Switzerland,CHF,Swiss Franc,2015-09,1.0264
+Switzerland,CHF,Swiss Franc,2015-10,1.0123
+Switzerland,CHF,Swiss Franc,2015-11,0.9720
+Switzerland,CHF,Swiss Franc,2015-12,0.9976
+Switzerland,CHF,Swiss Franc,2016-01,0.9760
+Switzerland,CHF,Swiss Franc,2016-02,1.0018
+Switzerland,CHF,Swiss Franc,2016-03,1.0401
+Switzerland,CHF,Swiss Franc,2016-04,1.0418
+Switzerland,CHF,Swiss Franc,2016-05,1.0064
+Switzerland,CHF,Swiss Franc,2016-06,1.0235
+Switzerland,CHF,Swiss Franc,2016-07,1.0308
+Switzerland,CHF,Swiss Franc,2016-08,1.0165
+Switzerland,CHF,Swiss Franc,2016-09,1.0291
+Switzerland,CHF,Swiss Franc,2016-10,1.0105
+Switzerland,CHF,Swiss Franc,2016-11,0.9831
+Switzerland,CHF,Swiss Franc,2016-12,0.9801
+Switzerland,CHF,Swiss Franc,2017-01,1.0101
+Switzerland,CHF,Swiss Franc,2017-02,0.9936
+Switzerland,CHF,Swiss Franc,2017-03,0.9961
+Switzerland,CHF,Swiss Franc,2017-04,1.0042
+Switzerland,CHF,Swiss Franc,2017-05,1.0327
+Switzerland,CHF,Swiss Franc,2017-06,1.0420
+Switzerland,CHF,Swiss Franc,2017-07,1.0337
+Switzerland,CHF,Swiss Franc,2017-08,1.0420
+Switzerland,CHF,Swiss Franc,2017-09,1.0321
+Switzerland,CHF,Swiss Franc,2017-10,1.0027
+Switzerland,CHF,Swiss Franc,2017-11,1.0154
+Switzerland,CHF,Swiss Franc,2017-12,1.0249
+Switzerland,CHF,Swiss Franc,2018-01,1.0731
+Switzerland,CHF,Swiss Franc,2018-02,1.0581
+Switzerland,CHF,Swiss Franc,2018-03,1.0486
+Switzerland,CHF,Swiss Franc,2018-04,1.0090
+Switzerland,CHF,Swiss Franc,2018-05,1.0158
+Switzerland,CHF,Swiss Franc,2018-06,1.0090
+Switzerland,CHF,Swiss Franc,2018-07,1.0096
+Switzerland,CHF,Swiss Franc,2018-08,1.0317
+Switzerland,CHF,Swiss Franc,2018-09,1.0185
+Switzerland,CHF,Swiss Franc,2018-10,0.9917
+Switzerland,CHF,Swiss Franc,2018-11,1.0008
+Switzerland,CHF,Swiss Franc,2018-12,1.0181
+Switzerland,CHF,Swiss Franc,2019-01,1.0052
+Switzerland,CHF,Swiss Franc,2019-02,1.0021
+Switzerland,CHF,Swiss Franc,2019-03,1.0043
+Switzerland,CHF,Swiss Franc,2019-04,0.9809
+Switzerland,CHF,Swiss Franc,2019-05,0.9984
+Switzerland,CHF,Swiss Franc,2019-06,1.0240
+Switzerland,CHF,Swiss Franc,2019-07,1.0065
+Switzerland,CHF,Swiss Franc,2019-08,1.0099
+Switzerland,CHF,Swiss Franc,2019-09,1.0021
+Switzerland,CHF,Swiss Franc,2019-10,1.0132
+Switzerland,CHF,Swiss Franc,2019-11,0.9989
+Switzerland,CHF,Swiss Franc,2019-12,1.0321
+European Union,EUR,Euro,2014-12,1.2096
+European Union,EUR,Euro,2015-01,1.1286
+European Union,EUR,Euro,2015-02,1.1186
+European Union,EUR,Euro,2015-03,1.0739
+European Union,EUR,Euro,2015-04,1.1211
+European Union,EUR,Euro,2015-05,1.0991
+European Union,EUR,Euro,2015-06,1.1129
+European Union,EUR,Euro,2015-07,1.0980
+European Union,EUR,Euro,2015-08,1.1218
+European Union,EUR,Euro,2015-09,1.1172
+European Union,EUR,Euro,2015-10,1.1011
+European Union,EUR,Euro,2015-11,1.0571
+European Union,EUR,Euro,2015-12,1.0858
+European Union,EUR,Euro,2016-01,1.0827
+European Union,EUR,Euro,2016-02,1.0884
+European Union,EUR,Euro,2016-03,1.1378
+European Union,EUR,Euro,2016-04,1.1448
+European Union,EUR,Euro,2016-05,1.1132
+European Union,EUR,Euro,2016-06,1.1099
+European Union,EUR,Euro,2016-07,1.1175
+European Union,EUR,Euro,2016-08,1.1161
+European Union,EUR,Euro,2016-09,1.1240
+European Union,EUR,Euro,2016-10,1.0972
+European Union,EUR,Euro,2016-11,1.0596
+European Union,EUR,Euro,2016-12,1.0516
+European Union,EUR,Euro,2017-01,1.0795
+European Union,EUR,Euro,2017-02,1.0573
+European Union,EUR,Euro,2017-03,1.0663
+European Union,EUR,Euro,2017-04,1.0893
+European Union,EUR,Euro,2017-05,1.1239
+European Union,EUR,Euro,2017-06,1.1427
+European Union,EUR,Euro,2017-07,1.1831
+European Union,EUR,Euro,2017-08,1.1913
+European Union,EUR,Euro,2017-09,1.1813
+European Union,EUR,Euro,2017-10,1.1649
+European Union,EUR,Euro,2017-11,1.1889
+European Union,EUR,Euro,2017-12,1.1994
+European Union,EUR,Euro,2018-01,1.2412
+European Union,EUR,Euro,2018-02,1.2192
+European Union,EUR,Euro,2018-03,1.2323
+European Union,EUR,Euro,2018-04,1.2081
+European Union,EUR,Euro,2018-05,1.1705
+European Union,EUR,Euro,2018-06,1.1684
+European Union,EUR,Euro,2018-07,1.1686
+European Union,EUR,Euro,2018-08,1.1599
+European Union,EUR,Euro,2018-09,1.1600
+European Union,EUR,Euro,2018-10,1.1317
+European Union,EUR,Euro,2018-11,1.1319
+European Union,EUR,Euro,2018-12,1.1466
+European Union,EUR,Euro,2019-01,1.1446
+European Union,EUR,Euro,2019-02,1.1371
+European Union,EUR,Euro,2019-03,1.1217
+European Union,EUR,Euro,2019-04,1.1211
+European Union,EUR,Euro,2019-05,1.1169
+European Union,EUR,Euro,2019-06,1.1373
+European Union,EUR,Euro,2019-07,1.1079
+European Union,EUR,Euro,2019-08,1.0989
+European Union,EUR,Euro,2019-09,1.0898
+European Union,EUR,Euro,2019-10,1.1151
+European Union,EUR,Euro,2019-11,1.1017
+European Union,EUR,Euro,2019-12,1.1213
+United Kingdom,GBP,Pound Sterling,2014-12,1.5575
+United Kingdom,GBP,Pound Sterling,2015-01,1.5067
+United Kingdom,GBP,Pound Sterling,2015-02,1.5433
+United Kingdom,GBP,Pound Sterling,2015-03,1.4828
+United Kingdom,GBP,Pound Sterling,2015-04,1.5348
+United Kingdom,GBP,Pound Sterling,2015-05,1.5293
+United Kingdom,GBP,Pound Sterling,2015-06,1.5683
+United Kingdom,GBP,Pound Sterling,2015-07,1.5619
+United Kingdom,GBP,Pound Sterling,2015-08,1.5350
+United Kingdom,GBP,Pound Sterling,2015-09,1.5123
+United Kingdom,GBP,Pound Sterling,2015-10,1.5425
+United Kingdom,GBP,Pound Sterling,2015-11,1.5063
+United Kingdom,GBP,Pound Sterling,2015-12,1.4734
+United Kingdom,GBP,Pound Sterling,2016-01,1.4245
+United Kingdom,GBP,Pound Sterling,2016-02,1.3925
+United Kingdom,GBP,Pound Sterling,2016-03,1.4368
+United Kingdom,GBP,Pound Sterling,2016-04,1.4606
+United Kingdom,GBP,Pound Sterling,2016-05,1.4492
+United Kingdom,GBP,Pound Sterling,2016-06,1.3312
+United Kingdom,GBP,Pound Sterling,2016-07,1.3230
+United Kingdom,GBP,Pound Sterling,2016-08,1.3144
+United Kingdom,GBP,Pound Sterling,2016-09,1.2976
+United Kingdom,GBP,Pound Sterling,2016-10,1.2234
+United Kingdom,GBP,Pound Sterling,2016-11,1.2511
+United Kingdom,GBP,Pound Sterling,2016-12,1.2346
+United Kingdom,GBP,Pound Sterling,2017-01,1.2580
+United Kingdom,GBP,Pound Sterling,2017-02,1.2376
+United Kingdom,GBP,Pound Sterling,2017-03,1.2543
+United Kingdom,GBP,Pound Sterling,2017-04,1.2945
+United Kingdom,GBP,Pound Sterling,2017-05,1.2870
+United Kingdom,GBP,Pound Sterling,2017-06,1.3022
+United Kingdom,GBP,Pound Sterling,2017-07,1.3200
+United Kingdom,GBP,Pound Sterling,2017-08,1.2941
+United Kingdom,GBP,Pound Sterling,2017-09,1.3393
+United Kingdom,GBP,Pound Sterling,2017-10,1.3286
+United Kingdom,GBP,Pound Sterling,2017-11,1.3513
+United Kingdom,GBP,Pound Sterling,2017-12,1.3501
+United Kingdom,GBP,Pound Sterling,2018-01,1.4196
+United Kingdom,GBP,Pound Sterling,2018-02,1.3756
+United Kingdom,GBP,Pound Sterling,2018-03,1.4010
+United Kingdom,GBP,Pound Sterling,2018-04,1.3768
+United Kingdom,GBP,Pound Sterling,2018-05,1.3299
+United Kingdom,GBP,Pound Sterling,2018-06,1.3207
+United Kingdom,GBP,Pound Sterling,2018-07,1.3116
+United Kingdom,GBP,Pound Sterling,2018-08,1.2956
+United Kingdom,GBP,Pound Sterling,2018-09,1.3026
+United Kingdom,GBP,Pound Sterling,2018-10,1.2771
+United Kingdom,GBP,Pound Sterling,2018-11,1.2751
+United Kingdom,GBP,Pound Sterling,2018-12,1.2750
+United Kingdom,GBP,Pound Sterling,2019-01,1.3107
+United Kingdom,GBP,Pound Sterling,2019-02,1.3262
+United Kingdom,GBP,Pound Sterling,2019-03,1.3043
+United Kingdom,GBP,Pound Sterling,2019-04,1.3032
+United Kingdom,GBP,Pound Sterling,2019-05,1.2626
+United Kingdom,GBP,Pound Sterling,2019-06,1.2696
+United Kingdom,GBP,Pound Sterling,2019-07,1.2159
+United Kingdom,GBP,Pound Sterling,2019-08,1.2159
+United Kingdom,GBP,Pound Sterling,2019-09,1.2288
+United Kingdom,GBP,Pound Sterling,2019-10,1.2932
+United Kingdom,GBP,Pound Sterling,2019-11,1.2928
+United Kingdom,GBP,Pound Sterling,2019-12,1.3260
+Hong Kong,HKD,Hong Kong Dollar,2014-12,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2015-01,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2015-02,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2015-03,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2015-04,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2015-05,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2015-06,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2015-07,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2015-08,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2015-09,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2015-10,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2015-11,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2015-12,0.1290
+Hong Kong,HKD,Hong Kong Dollar,2016-01,0.1284
+Hong Kong,HKD,Hong Kong Dollar,2016-02,0.1285
+Hong Kong,HKD,Hong Kong Dollar,2016-03,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2016-04,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2016-05,0.1286
+Hong Kong,HKD,Hong Kong Dollar,2016-06,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2016-07,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2016-08,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2016-09,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2016-10,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2016-11,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2016-12,0.1289
+Hong Kong,HKD,Hong Kong Dollar,2017-01,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2017-02,0.1288
+Hong Kong,HKD,Hong Kong Dollar,2017-03,0.1287
+Hong Kong,HKD,Hong Kong Dollar,2017-04,0.1285
+Hong Kong,HKD,Hong Kong Dollar,2017-05,0.1283
+Hong Kong,HKD,Hong Kong Dollar,2017-06,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2017-07,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2017-08,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2017-09,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2017-10,0.1282
+Hong Kong,HKD,Hong Kong Dollar,2017-11,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2017-12,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2018-01,0.1278
+Hong Kong,HKD,Hong Kong Dollar,2018-02,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2018-03,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2018-04,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2018-05,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2018-06,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2018-07,0.1273
+Hong Kong,HKD,Hong Kong Dollar,2018-08,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2018-09,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2018-10,0.1275
+Hong Kong,HKD,Hong Kong Dollar,2018-11,0.1278
+Hong Kong,HKD,Hong Kong Dollar,2018-12,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2019-01,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2019-02,0.1273
+Hong Kong,HKD,Hong Kong Dollar,2019-03,0.1273
+Hong Kong,HKD,Hong Kong Dollar,2019-04,0.1274
+Hong Kong,HKD,Hong Kong Dollar,2019-05,0.1275
+Hong Kong,HKD,Hong Kong Dollar,2019-06,0.1280
+Hong Kong,HKD,Hong Kong Dollar,2019-07,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2019-08,0.1275
+Hong Kong,HKD,Hong Kong Dollar,2019-09,0.1275
+Hong Kong,HKD,Hong Kong Dollar,2019-10,0.1275
+Hong Kong,HKD,Hong Kong Dollar,2019-11,0.1277
+Hong Kong,HKD,Hong Kong Dollar,2019-12,0.1283
+India,INR,Indian Rupee,2014-12,0.0159
+India,INR,Indian Rupee,2015-01,0.0161
+India,INR,Indian Rupee,2015-02,0.0162
+India,INR,Indian Rupee,2015-03,0.0160
+India,INR,Indian Rupee,2015-04,0.0157
+India,INR,Indian Rupee,2015-05,0.0157
+India,INR,Indian Rupee,2015-06,0.0157
+India,INR,Indian Rupee,2015-07,0.0156
+India,INR,Indian Rupee,2015-08,0.0150
+India,INR,Indian Rupee,2015-09,0.0153
+India,INR,Indian Rupee,2015-10,0.0153
+India,INR,Indian Rupee,2015-11,0.0150
+India,INR,Indian Rupee,2015-12,0.0150
+India,INR,Indian Rupee,2016-01,0.0147
+India,INR,Indian Rupee,2016-02,0.0146
+India,INR,Indian Rupee,2016-03,0.0151
+India,INR,Indian Rupee,2016-04,0.0150
+India,INR,Indian Rupee,2016-05,0.0149
+India,INR,Indian Rupee,2016-06,0.0148
+India,INR,Indian Rupee,2016-07,0.0150
+India,INR,Indian Rupee,2016-08,0.0149
+India,INR,Indian Rupee,2016-09,0.0150
+India,INR,Indian Rupee,2016-10,0.0150
+India,INR,Indian Rupee,2016-11,0.0146
+India,INR,Indian Rupee,2016-12,0.0147
+India,INR,Indian Rupee,2017-01,0.0148
+India,INR,Indian Rupee,2017-02,0.0150
+India,INR,Indian Rupee,2017-03,0.0154
+India,INR,Indian Rupee,2017-04,0.0155
+India,INR,Indian Rupee,2017-05,0.0155
+India,INR,Indian Rupee,2017-06,0.0155
+India,INR,Indian Rupee,2017-07,0.0156
+India,INR,Indian Rupee,2017-08,0.0156
+India,INR,Indian Rupee,2017-09,0.0153
+India,INR,Indian Rupee,2017-10,0.0154
+India,INR,Indian Rupee,2017-11,0.0155
+India,INR,Indian Rupee,2017-12,0.0157
+India,INR,Indian Rupee,2018-01,0.0157
+India,INR,Indian Rupee,2018-02,0.0153
+India,INR,Indian Rupee,2018-03,0.0154
+India,INR,Indian Rupee,2018-04,0.0150
+India,INR,Indian Rupee,2018-05,0.0148
+India,INR,Indian Rupee,2018-06,0.0146
+India,INR,Indian Rupee,2018-07,0.0146
+India,INR,Indian Rupee,2018-08,0.0141
+India,INR,Indian Rupee,2018-09,0.0138
+India,INR,Indian Rupee,2018-10,0.0135
+India,INR,Indian Rupee,2018-11,0.0143
+India,INR,Indian Rupee,2018-12,0.0144
+India,INR,Indian Rupee,2019-01,0.0141
+India,INR,Indian Rupee,2019-02,0.0141
+India,INR,Indian Rupee,2019-03,0.0144
+India,INR,Indian Rupee,2019-04,0.0144
+India,INR,Indian Rupee,2019-05,0.0144
+India,INR,Indian Rupee,2019-06,0.0145
+India,INR,Indian Rupee,2019-07,0.0145
+India,INR,Indian Rupee,2019-08,0.0139
+India,INR,Indian Rupee,2019-09,0.0141
+India,INR,Indian Rupee,2019-10,0.0141
+India,INR,Indian Rupee,2019-11,0.0139
+India,INR,Indian Rupee,2019-12,0.0140
+Japan,JPY,Japanese Yen,2014-12,0.0083
+Japan,JPY,Japanese Yen,2015-01,0.0085
+Japan,JPY,Japanese Yen,2015-02,0.0083
+Japan,JPY,Japanese Yen,2015-03,0.0083
+Japan,JPY,Japanese Yen,2015-04,0.0084
+Japan,JPY,Japanese Yen,2015-05,0.0080
+Japan,JPY,Japanese Yen,2015-06,0.0082
+Japan,JPY,Japanese Yen,2015-07,0.0081
+Japan,JPY,Japanese Yen,2015-08,0.0083
+Japan,JPY,Japanese Yen,2015-09,0.0083
+Japan,JPY,Japanese Yen,2015-10,0.0083
+Japan,JPY,Japanese Yen,2015-11,0.0081
+Japan,JPY,Japanese Yen,2015-12,0.0083
+Japan,JPY,Japanese Yen,2016-01,0.0083
+Japan,JPY,Japanese Yen,2016-02,0.0089
+Japan,JPY,Japanese Yen,2016-03,0.0089
+Japan,JPY,Japanese Yen,2016-04,0.0094
+Japan,JPY,Japanese Yen,2016-05,0.0090
+Japan,JPY,Japanese Yen,2016-06,0.0097
+Japan,JPY,Japanese Yen,2016-07,0.0098
+Japan,JPY,Japanese Yen,2016-08,0.0097
+Japan,JPY,Japanese Yen,2016-09,0.0099
+Japan,JPY,Japanese Yen,2016-10,0.0095
+Japan,JPY,Japanese Yen,2016-11,0.0087
+Japan,JPY,Japanese Yen,2016-12,0.0086
+Japan,JPY,Japanese Yen,2017-01,0.0089
+Japan,JPY,Japanese Yen,2017-02,0.0089
+Japan,JPY,Japanese Yen,2017-03,0.0090
+Japan,JPY,Japanese Yen,2017-04,0.0090
+Japan,JPY,Japanese Yen,2017-05,0.0090
+Japan,JPY,Japanese Yen,2017-06,0.0089
+Japan,JPY,Japanese Yen,2017-07,0.0091
+Japan,JPY,Japanese Yen,2017-08,0.0091
+Japan,JPY,Japanese Yen,2017-09,0.0089
+Japan,JPY,Japanese Yen,2017-10,0.0088
+Japan,JPY,Japanese Yen,2017-11,0.0089
+Japan,JPY,Japanese Yen,2017-12,0.0089
+Japan,JPY,Japanese Yen,2018-01,0.0092
+Japan,JPY,Japanese Yen,2018-02,0.0094
+Japan,JPY,Japanese Yen,2018-03,0.0094
+Japan,JPY,Japanese Yen,2018-04,0.0092
+Japan,JPY,Japanese Yen,2018-05,0.0092
+Japan,JPY,Japanese Yen,2018-06,0.0090
+Japan,JPY,Japanese Yen,2018-07,0.0089
+Japan,JPY,Japanese Yen,2018-08,0.0090
+Japan,JPY,Japanese Yen,2018-09,0.0088
+Japan,JPY,Japanese Yen,2018-10,0.0089
+Japan,JPY,Japanese Yen,2018-11,0.0088
+Japan,JPY,Japanese Yen,2018-12,0.0091
+Japan,JPY,Japanese Yen,2019-01,0.0092
+Japan,JPY,Japanese Yen,2019-02,0.0090
+Japan,JPY,Japanese Yen,2019-03,0.0090
+Japan,JPY,Japanese Yen,2019-04,0.0090
+Japan,JPY,Japanese Yen,2019-05,0.0092
+Japan,JPY,Japanese Yen,2019-06,0.0093
+Japan,JPY,Japanese Yen,2019-07,0.0092
+Japan,JPY,Japanese Yen,2019-08,0.0094
+Japan,JPY,Japanese Yen,2019-09,0.0092
+Japan,JPY,Japanese Yen,2019-10,0.0093
+Japan,JPY,Japanese Yen,2019-11,0.0091
+Japan,JPY,Japanese Yen,2019-12,0.0092
+Mexico,MXN,Mexican Peso,2014-12,0.0677
+Mexico,MXN,Mexican Peso,2015-01,0.0667
+Mexico,MXN,Mexican Peso,2015-02,0.0668
+Mexico,MXN,Mexican Peso,2015-03,0.0655
+Mexico,MXN,Mexican Peso,2015-04,0.0651
+Mexico,MXN,Mexican Peso,2015-05,0.0650
+Mexico,MXN,Mexican Peso,2015-06,0.0630
+Mexico,MXN,Mexican Peso,2015-07,0.0621
+Mexico,MXN,Mexican Peso,2015-08,0.0597
+Mexico,MXN,Mexican Peso,2015-09,0.0590
+Mexico,MXN,Mexican Peso,2015-10,0.0604
+Mexico,MXN,Mexican Peso,2015-11,0.0603
+Mexico,MXN,Mexican Peso,2015-12,0.0580
+Mexico,MXN,Mexican Peso,2016-01,0.0552
+Mexico,MXN,Mexican Peso,2016-02,0.0551
+Mexico,MXN,Mexican Peso,2016-03,0.0579
+Mexico,MXN,Mexican Peso,2016-04,0.0579
+Mexico,MXN,Mexican Peso,2016-05,0.0541
+Mexico,MXN,Mexican Peso,2016-06,0.0541
+Mexico,MXN,Mexican Peso,2016-07,0.0532
+Mexico,MXN,Mexican Peso,2016-08,0.0532
+Mexico,MXN,Mexican Peso,2016-09,0.0516
+Mexico,MXN,Mexican Peso,2016-10,0.0529
+Mexico,MXN,Mexican Peso,2016-11,0.0486
+Mexico,MXN,Mexican Peso,2016-12,0.0482
+Mexico,MXN,Mexican Peso,2017-01,0.0480
+Mexico,MXN,Mexican Peso,2017-02,0.0496
+Mexico,MXN,Mexican Peso,2017-03,0.0532
+Mexico,MXN,Mexican Peso,2017-04,0.0531
+Mexico,MXN,Mexican Peso,2017-05,0.0537
+Mexico,MXN,Mexican Peso,2017-06,0.0551
+Mexico,MXN,Mexican Peso,2017-07,0.0561
+Mexico,MXN,Mexican Peso,2017-08,0.0559
+Mexico,MXN,Mexican Peso,2017-09,0.0547
+Mexico,MXN,Mexican Peso,2017-10,0.0521
+Mexico,MXN,Mexican Peso,2017-11,0.0536
+Mexico,MXN,Mexican Peso,2017-12,0.0508
+Mexico,MXN,Mexican Peso,2018-01,0.0537
+Mexico,MXN,Mexican Peso,2018-02,0.0531
+Mexico,MXN,Mexican Peso,2018-03,0.0550
+Mexico,MXN,Mexican Peso,2018-04,0.0534
+Mexico,MXN,Mexican Peso,2018-05,0.0502
+Mexico,MXN,Mexican Peso,2018-06,0.0501
+Mexico,MXN,Mexican Peso,2018-07,0.0536
+Mexico,MXN,Mexican Peso,2018-08,0.0524
+Mexico,MXN,Mexican Peso,2018-09,0.0534
+Mexico,MXN,Mexican Peso,2018-10,0.0492
+Mexico,MXN,Mexican Peso,2018-11,0.0490
+Mexico,MXN,Mexican Peso,2018-12,0.0509
+Mexico,MXN,Mexican Peso,2019-01,0.0523
+Mexico,MXN,Mexican Peso,2019-02,0.0519
+Mexico,MXN,Mexican Peso,2019-03,0.0514
+Mexico,MXN,Mexican Peso,2019-04,0.0528
+Mexico,MXN,Mexican Peso,2019-05,0.0509
+Mexico,MXN,Mexican Peso,2019-06,0.0520
+Mexico,MXN,Mexican Peso,2019-07,0.0522
+Mexico,MXN,Mexican Peso,2019-08,0.0498
+Mexico,MXN,Mexican Peso,2019-09,0.0507
+Mexico,MXN,Mexican Peso,2019-10,0.0520
+Mexico,MXN,Mexican Peso,2019-11,0.0511
+Mexico,MXN,Mexican Peso,2019-12,0.0529
+New Zealand,NZD,New Zealand Dollar,2014-12,0.7791
+New Zealand,NZD,New Zealand Dollar,2015-01,0.7259
+New Zealand,NZD,New Zealand Dollar,2015-02,0.7560
+New Zealand,NZD,New Zealand Dollar,2015-03,0.7461
+New Zealand,NZD,New Zealand Dollar,2015-04,0.7603
+New Zealand,NZD,New Zealand Dollar,2015-05,0.7102
+New Zealand,NZD,New Zealand Dollar,2015-06,0.6781
+New Zealand,NZD,New Zealand Dollar,2015-07,0.6589
+New Zealand,NZD,New Zealand Dollar,2015-08,0.6357
+New Zealand,NZD,New Zealand Dollar,2015-09,0.6387
+New Zealand,NZD,New Zealand Dollar,2015-10,0.6773
+New Zealand,NZD,New Zealand Dollar,2015-11,0.6587
+New Zealand,NZD,New Zealand Dollar,2015-12,0.6836
+New Zealand,NZD,New Zealand Dollar,2016-01,0.6480
+New Zealand,NZD,New Zealand Dollar,2016-02,0.6610
+New Zealand,NZD,New Zealand Dollar,2016-03,0.6921
+New Zealand,NZD,New Zealand Dollar,2016-04,0.6978
+New Zealand,NZD,New Zealand Dollar,2016-05,0.6789
+New Zealand,NZD,New Zealand Dollar,2016-06,0.7134
+New Zealand,NZD,New Zealand Dollar,2016-07,0.7204
+New Zealand,NZD,New Zealand Dollar,2016-08,0.7248
+New Zealand,NZD,New Zealand Dollar,2016-09,0.7283
+New Zealand,NZD,New Zealand Dollar,2016-10,0.7150
+New Zealand,NZD,New Zealand Dollar,2016-11,0.7086
+New Zealand,NZD,New Zealand Dollar,2016-12,0.6922
+New Zealand,NZD,New Zealand Dollar,2017-01,0.7300
+New Zealand,NZD,New Zealand Dollar,2017-02,0.7182
+New Zealand,NZD,New Zealand Dollar,2017-03,0.7003
+New Zealand,NZD,New Zealand Dollar,2017-04,0.6862
+New Zealand,NZD,New Zealand Dollar,2017-05,0.7077
+New Zealand,NZD,New Zealand Dollar,2017-06,0.7326
+New Zealand,NZD,New Zealand Dollar,2017-07,0.7506
+New Zealand,NZD,New Zealand Dollar,2017-08,0.7173
+New Zealand,NZD,New Zealand Dollar,2017-09,0.7204
+New Zealand,NZD,New Zealand Dollar,2017-10,0.6896
+New Zealand,NZD,New Zealand Dollar,2017-11,0.6821
+New Zealand,NZD,New Zealand Dollar,2017-12,0.7093
+New Zealand,NZD,New Zealand Dollar,2018-01,0.7369
+New Zealand,NZD,New Zealand Dollar,2018-02,0.7205
+New Zealand,NZD,New Zealand Dollar,2018-03,0.7238
+New Zealand,NZD,New Zealand Dollar,2018-04,0.7035
+New Zealand,NZD,New Zealand Dollar,2018-05,0.7009
+New Zealand,NZD,New Zealand Dollar,2018-06,0.6764
+New Zealand,NZD,New Zealand Dollar,2018-07,0.6804
+New Zealand,NZD,New Zealand Dollar,2018-08,0.6620
+New Zealand,NZD,New Zealand Dollar,2018-09,0.6616
+New Zealand,NZD,New Zealand Dollar,2018-10,0.6523
+New Zealand,NZD,New Zealand Dollar,2018-11,0.6878
+New Zealand,NZD,New Zealand Dollar,2018-12,0.6717
+New Zealand,NZD,New Zealand Dollar,2019-01,0.6913
+New Zealand,NZD,New Zealand Dollar,2019-02,0.6814
+New Zealand,NZD,New Zealand Dollar,2019-03,0.6802
+New Zealand,NZD,New Zealand Dollar,2019-04,0.6641
+New Zealand,NZD,New Zealand Dollar,2019-05,0.6532
+New Zealand,NZD,New Zealand Dollar,2019-06,0.6717
+New Zealand,NZD,New Zealand Dollar,2019-07,0.6561
+New Zealand,NZD,New Zealand Dollar,2019-08,0.6306
+New Zealand,NZD,New Zealand Dollar,2019-09,0.6259
+New Zealand,NZD,New Zealand Dollar,2019-10,0.6413
+New Zealand,NZD,New Zealand Dollar,2019-11,0.6422
+New Zealand,NZD,New Zealand Dollar,2019-12,0.6720
+Russia,RUB,Russian Ruble,2014-12,0.0164
+Russia,RUB,Russian Ruble,2015-01,0.0144
+Russia,RUB,Russian Ruble,2015-02,0.0163
+Russia,RUB,Russian Ruble,2015-03,0.0171
+Russia,RUB,Russian Ruble,2015-04,0.0194
+Russia,RUB,Russian Ruble,2015-05,0.0190
+Russia,RUB,Russian Ruble,2015-06,0.0180
+Russia,RUB,Russian Ruble,2015-07,0.0164
+Russia,RUB,Russian Ruble,2015-08,0.0155
+Russia,RUB,Russian Ruble,2015-09,0.0152
+Russia,RUB,Russian Ruble,2015-10,0.0157
+Russia,RUB,Russian Ruble,2015-11,0.0150
+Russia,RUB,Russian Ruble,2015-12,0.0138
+Russia,RUB,Russian Ruble,2016-01,0.0132
+Russia,RUB,Russian Ruble,2016-02,0.0132
+Russia,RUB,Russian Ruble,2016-03,0.0149
+Russia,RUB,Russian Ruble,2016-04,0.0154
+Russia,RUB,Russian Ruble,2016-05,0.0149
+Russia,RUB,Russian Ruble,2016-06,0.0156
+Russia,RUB,Russian Ruble,2016-07,0.0151
+Russia,RUB,Russian Ruble,2016-08,0.0153
+Russia,RUB,Russian Ruble,2016-09,0.0159
+Russia,RUB,Russian Ruble,2016-10,0.0158
+Russia,RUB,Russian Ruble,2016-11,0.0155
+Russia,RUB,Russian Ruble,2016-12,0.0162
+Russia,RUB,Russian Ruble,2017-01,0.0166
+Russia,RUB,Russian Ruble,2017-02,0.0171
+Russia,RUB,Russian Ruble,2017-03,0.0177
+Russia,RUB,Russian Ruble,2017-04,0.0175
+Russia,RUB,Russian Ruble,2017-05,0.0176
+Russia,RUB,Russian Ruble,2017-06,0.0169
+Russia,RUB,Russian Ruble,2017-07,0.0167
+Russia,RUB,Russian Ruble,2017-08,0.0172
+Russia,RUB,Russian Ruble,2017-09,0.0173
+Russia,RUB,Russian Ruble,2017-10,0.0171
+Russia,RUB,Russian Ruble,2017-11,0.0170
+Russia,RUB,Russian Ruble,2017-12,0.0173
+Russia,RUB,Russian Ruble,2018-01,0.0177
+Russia,RUB,Russian Ruble,2018-02,0.0177
+Russia,RUB,Russian Ruble,2018-03,0.0175
+Russia,RUB,Russian Ruble,2018-04,0.0158
+Russia,RUB,Russian Ruble,2018-05,0.0160
+Russia,RUB,Russian Ruble,2018-06,0.0159
+Russia,RUB,Russian Ruble,2018-07,0.0160
+Russia,RUB,Russian Ruble,2018-08,0.0148
+Russia,RUB,Russian Ruble,2018-09,0.0152
+Russia,RUB,Russian Ruble,2018-10,0.0152
+Russia,RUB,Russian Ruble,2018-11,0.0149
+Russia,RUB,Russian Ruble,2018-12,0.0143
+Russia,RUB,Russian Ruble,2019-01,0.0152
+Russia,RUB,Russian Ruble,2019-02,0.0151
+Russia,RUB,Russian Ruble,2019-03,0.0152
+Russia,RUB,Russian Ruble,2019-04,0.0154
+Russia,RUB,Russian Ruble,2019-05,0.0152
+Russia,RUB,Russian Ruble,2019-06,0.0158
+Russia,RUB,Russian Ruble,2019-07,0.0157
+Russia,RUB,Russian Ruble,2019-08,0.0149
+Russia,RUB,Russian Ruble,2019-09,0.0154
+Russia,RUB,Russian Ruble,2019-10,0.0155
+Russia,RUB,Russian Ruble,2019-11,0.0155
+Russia,RUB,Russian Ruble,2019-12,0.0161
+Sweden,SEK,Swedish Krona,2014-12,0.1279
+Sweden,SEK,Swedish Krona,2015-01,0.1202
+Sweden,SEK,Swedish Krona,2015-02,0.1194
+Sweden,SEK,Swedish Krona,2015-03,0.1154
+Sweden,SEK,Swedish Krona,2015-04,0.1193
+Sweden,SEK,Swedish Krona,2015-05,0.1167
+Sweden,SEK,Swedish Krona,2015-06,0.1199
+Sweden,SEK,Swedish Krona,2015-07,0.1154
+Sweden,SEK,Swedish Krona,2015-08,0.1176
+Sweden,SEK,Swedish Krona,2015-09,0.1189
+Sweden,SEK,Swedish Krona,2015-10,0.1167
+Sweden,SEK,Swedish Krona,2015-11,0.1142
+Sweden,SEK,Swedish Krona,2015-12,0.1176
+Sweden,SEK,Swedish Krona,2016-01,0.1161
+Sweden,SEK,Swedish Krona,2016-02,0.1164
+Sweden,SEK,Swedish Krona,2016-03,0.1226
+Sweden,SEK,Swedish Krona,2016-04,0.1240
+Sweden,SEK,Swedish Krona,2016-05,0.1195
+Sweden,SEK,Swedish Krona,2016-06,0.1178
+Sweden,SEK,Swedish Krona,2016-07,0.1165
+Sweden,SEK,Swedish Krona,2016-08,0.1164
+Sweden,SEK,Swedish Krona,2016-09,0.1168
+Sweden,SEK,Swedish Krona,2016-10,0.1101
+Sweden,SEK,Swedish Krona,2016-11,0.1078
+Sweden,SEK,Swedish Krona,2016-12,0.1094
+Sweden,SEK,Swedish Krona,2017-01,0.1138
+Sweden,SEK,Swedish Krona,2017-02,0.1101
+Sweden,SEK,Swedish Krona,2017-03,0.1110
+Sweden,SEK,Swedish Krona,2017-04,0.1124
+Sweden,SEK,Swedish Krona,2017-05,0.1145
+Sweden,SEK,Swedish Krona,2017-06,0.1182
+Sweden,SEK,Swedish Krona,2017-07,0.1234
+Sweden,SEK,Swedish Krona,2017-08,0.1255
+Sweden,SEK,Swedish Krona,2017-09,0.1223
+Sweden,SEK,Swedish Krona,2017-10,0.1189
+Sweden,SEK,Swedish Krona,2017-11,0.1187
+Sweden,SEK,Swedish Krona,2017-12,0.1216
+Sweden,SEK,Swedish Krona,2018-01,0.1263
+Sweden,SEK,Swedish Krona,2018-02,0.1201
+Sweden,SEK,Swedish Krona,2018-03,0.1194
+Sweden,SEK,Swedish Krona,2018-04,0.1138
+Sweden,SEK,Swedish Krona,2018-05,0.1131
+Sweden,SEK,Swedish Krona,2018-06,0.1114
+Sweden,SEK,Swedish Krona,2018-07,0.1132
+Sweden,SEK,Swedish Krona,2018-08,0.1087
+Sweden,SEK,Swedish Krona,2018-09,0.1120
+Sweden,SEK,Swedish Krona,2018-10,0.1087
+Sweden,SEK,Swedish Krona,2018-11,0.1093
+Sweden,SEK,Swedish Krona,2018-12,0.1124
+Sweden,SEK,Swedish Krona,2019-01,0.1101
+Sweden,SEK,Swedish Krona,2019-02,0.1077
+Sweden,SEK,Swedish Krona,2019-03,0.1070
+Sweden,SEK,Swedish Krona,2019-04,0.1048
+Sweden,SEK,Swedish Krona,2019-05,0.1048
+Sweden,SEK,Swedish Krona,2019-06,0.1072
+Sweden,SEK,Swedish Krona,2019-07,0.1030
+Sweden,SEK,Swedish Krona,2019-08,0.1014
+Sweden,SEK,Swedish Krona,2019-09,0.1010
+Sweden,SEK,Swedish Krona,2019-10,0.1031
+Sweden,SEK,Swedish Krona,2019-11,0.1039
+Sweden,SEK,Swedish Krona,2019-12,0.1063
+Turkey,TRY,Turkish Lira,2014-12,0.4280
+Turkey,TRY,Turkish Lira,2015-01,0.4090
+Turkey,TRY,Turkish Lira,2015-02,0.3982
+Turkey,TRY,Turkish Lira,2015-03,0.3843
+Turkey,TRY,Turkish Lira,2015-04,0.3733
+Turkey,TRY,Turkish Lira,2015-05,0.3750
+Turkey,TRY,Turkish Lira,2015-06,0.3722
+Turkey,TRY,Turkish Lira,2015-07,0.3604
+Turkey,TRY,Turkish Lira,2015-08,0.3423
+Turkey,TRY,Turkish Lira,2015-09,0.3300
+Turkey,TRY,Turkish Lira,2015-10,0.3423
+Turkey,TRY,Turkish Lira,2015-11,0.3428
+Turkey,TRY,Turkish Lira,2015-12,0.3423
+Turkey,TRY,Turkish Lira,2016-01,0.3375
+Turkey,TRY,Turkish Lira,2016-02,0.3367
+Turkey,TRY,Turkish Lira,2016-03,0.3543
+Turkey,TRY,Turkish Lira,2016-04,0.3571
+Turkey,TRY,Turkish Lira,2016-05,0.3388
+Turkey,TRY,Turkish Lira,2016-06,0.3468
+Turkey,TRY,Turkish Lira,2016-07,0.3338
+Turkey,TRY,Turkish Lira,2016-08,0.3377
+Turkey,TRY,Turkish Lira,2016-09,0.3327
+Turkey,TRY,Turkish Lira,2016-10,0.3224
+Turkey,TRY,Turkish Lira,2016-11,0.2905
+Turkey,TRY,Turkish Lira,2016-12,0.2830
+Turkey,TRY,Turkish Lira,2017-01,0.2642
+Turkey,TRY,Turkish Lira,2017-02,0.2738
+Turkey,TRY,Turkish Lira,2017-03,0.2746
+Turkey,TRY,Turkish Lira,2017-04,0.2810
+Turkey,TRY,Turkish Lira,2017-05,0.2829
+Turkey,TRY,Turkish Lira,2017-06,0.2835
+Turkey,TRY,Turkish Lira,2017-07,0.2834
+Turkey,TRY,Turkish Lira,2017-08,0.2892
+Turkey,TRY,Turkish Lira,2017-09,0.2800
+Turkey,TRY,Turkish Lira,2017-10,0.2633
+Turkey,TRY,Turkish Lira,2017-11,0.2548
+Turkey,TRY,Turkish Lira,2017-12,0.2633
+Turkey,TRY,Turkish Lira,2018-01,0.2657
+Turkey,TRY,Turkish Lira,2018-02,0.2624
+Turkey,TRY,Turkish Lira,2018-03,0.2523
+Turkey,TRY,Turkish Lira,2018-04,0.2457
+Turkey,TRY,Turkish Lira,2018-05,0.2203
+Turkey,TRY,Turkish Lira,2018-06,0.2175
+Turkey,TRY,Turkish Lira,2018-07,0.2027
+Turkey,TRY,Turkish Lira,2018-08,0.1529
+Turkey,TRY,Turkish Lira,2018-09,0.1642
+Turkey,TRY,Turkish Lira,2018-10,0.1785
+Turkey,TRY,Turkish Lira,2018-11,0.1914
+Turkey,TRY,Turkish Lira,2018-12,0.1884
+Turkey,TRY,Turkish Lira,2019-01,0.1928
+Turkey,TRY,Turkish Lira,2019-02,0.1867
+Turkey,TRY,Turkish Lira,2019-03,0.1788
+Turkey,TRY,Turkish Lira,2019-04,0.1671
+Turkey,TRY,Turkish Lira,2019-05,0.1709
+Turkey,TRY,Turkish Lira,2019-06,0.1722
+Turkey,TRY,Turkish Lira,2019-07,0.1787
+Turkey,TRY,Turkish Lira,2019-08,0.1710
+Turkey,TRY,Turkish Lira,2019-09,0.1765
+Turkey,TRY,Turkish Lira,2019-10,0.1747
+Turkey,TRY,Turkish Lira,2019-11,0.1735
+Turkey,TRY,Turkish Lira,2019-12,0.1677
