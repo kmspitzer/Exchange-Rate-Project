@@ -34,5 +34,9 @@ The technical requirements for Project 1 are as follows.
  - Save PNG images of your visualizations to distribute to the class and instructional team, and for inclusion in your presentation
  - Optionally, use at least one API, if you can find an API with data pertinent to your primary research questions
  - Create a write-up summarizing your major findings. This should include a heading for each "question" you asked of your data, and under each heading, a short description of what you found and any relevant plots.
+ 
+ ## NOTE:
+    Summary write-up located in Docs/InflatetheRate_summary.docx
+    
 
 
