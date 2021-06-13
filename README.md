@@ -8,7 +8,7 @@
 
 ## Project Description
 
-This project attempts to find a correlation exchange rate and inflation. We looked at a few countries currencies vs the US dollar. And compared the FX rate to the countrys inflation. This project is a two part. One the analysis and technical design and the second part is a presentation of the analysis to the class.
+This project attempts to find a correlation between exchange rate and inflation. We looked at a few countries' currencies vs the US dollar. And compared the FX rate to the countrys inflation. This project is a two part. One the analysis and technical design and the second part is a presentation of the analysis to the class.
 
 In this example we can see an output of the Indian Rupee (INR) and India Rate of Inflation. 
 ![INR](Output/XRvsInflLineGraph_INR.png)
