@@ -12,6 +12,7 @@ This project attempts to find a correlation between exchange rate and inflation.
 
 In this example we can see an output of the Indian Rupee (INR) and India Rate of Inflation. 
 ![INR](Output/XRvsInflLineGraph_INR.png)
+![INR](Output/XRvsInflRegress_INR.png)
 
 ## Data Set
 To acomplish this project we used the following API's [Alpha Vantage API](https://www.alphavantage.co/query?function=FX_MONTHLY), the [Stats Bureau API](https://www.statbureau.org/calculate-inflation-rate-json). 
